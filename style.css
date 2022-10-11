@@ -547,9 +547,6 @@ b {
 
 /*Breakpoints*/
 @media (min-width: 576px) { 
-html{
-  font-size:5px;
-  }
   
 navbar{
   color:#6fedd6;
