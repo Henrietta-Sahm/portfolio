@@ -521,7 +521,7 @@ h1 {
     border: 0.1rem solid #6fedd6;
   }
   100% {
-    border: 0.1re solid #1d325e;
+    border: 0.1rem solid #1d325e;
   }
 }
 
@@ -546,16 +546,98 @@ b {
 
 
 /*Breakpoints*/
-@media (min-width: 576px) { 
-  
-navbar{
-  color:#6fedd6;
-  }
-  
-  .heading-container{
-    margin-right:4rem;
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding-top: 1.8rem;
   }
 
+  .navbar-toggler {
+    margin-top: 1rem;
+  }
+
+  .brand-logo {
+    left: -0.9rem;
+    width: 15rem;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+
+  .resume-link {
+    animation: none;
+    animation-name: glowing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    margin: auto;
+    margin-top: 1.5rem;
+  }
+
+  .resume-link:hover {
+    transform: none;
+  }
+
+  .resume-link:active {
+    transform: none;
+  }
+
+  /* HEADER */
+
+  .heading-container {
+    margin-left: 3rem;
+  }
+
+  .intro-span {
+    font-size: 1.5rem;
+  }
+
+  .intro-heading {
+    font-size: 4.5rem;
+  }
+
+  .sub-heading1 {
+    font-size: 3.5rem;
+    display: block;
+  }
+
+  .heading1-paragraph {
+    font-size: 1.4rem;
+    padding-right: 2rem;
+  }
+
+  br {
+    content: "";
+  }
+
+  .socials {
+    display: inline-block;
+  }
+
+  .social-media {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+  }
+
+  .contact-me {
+    animation-name: glowing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    font-size: 1.3rem;
+    width: 12rem;
+  }
+
+  .contact-me:hover {
+    font-size: 1.3rem;
+    transform: none;
+    width: 12rem;
+  }
+
+  .contact-me:active {
+    transform: none;
+  }
+}
 
   
   
