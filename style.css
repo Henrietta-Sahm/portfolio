@@ -698,7 +698,91 @@ b {
     content: " ";
     display: block;
   }
+
+  
+  /* PROJECT */
+  .row {
+    margin-left: 2rem;
+  }
+
+  .box-1 {
+    margin-left: 0.4rem;
+  }
+
+  .col-box {
+    margin-left: 0.4rem;
+    width: 90%;
+  }
+
+  .fa-folder-o {
+    margin: 1rem 0rem 0rem 1rem;
+  }
+
+  .fa-external-link {
+    margin: 1rem 1rem 0rem 0rem;
+  }
+
+  .heading-project_box {
+    padding: 1rem;
+    margin-top: 4rem;
+  }
+
+  .heading-6 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 0.5rem;
+  }
+
+  .heading6-paragraph {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    padding: 0.5rem;
+  }
+
+  .languages {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .html,
+  .css {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 4rem;
+  }
+
+  .box-2:hover {
+    animation: none;
+  }
+
+  .box-1:hover {
+    animation: none;
+  }
+
+  .btn-span {
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+  }
+
+  .btn-certificates {
+    font-size: 1.5rem;
+    border-radius: 0.4rem;
+    padding: 1.2rem;
+  }
+
+  .btn-certificates:hover {
+    transform: none;
+  }
+  .btn-certificates:active {
+    transform: none;
+  }
+
+  .fa-margin {
+    margin-right: 2rem;
+  }
 }
+
 
   
   
