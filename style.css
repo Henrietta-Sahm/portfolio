@@ -1,0 +1,545 @@
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #182747;
+  font-weight: 400;
+}
+
+p {
+  color: #dfdfde;
+}
+
+/* ***NavBar*** */
+.navbar {
+  background-color: #182747;
+  margin-bottom: 7rem;
+  padding: 1.4rem;
+}
+
+.brand-logo {
+  height: 18rem;
+  left: -rem;
+  position: fixed;
+  top: -4.5rem;
+  width: 20rem;
+}
+
+.nav-link {
+  color: #dfdfde;
+  font-family: "verdana", cursive;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  margin: 2rem 0rem 0rem 2.5rem;
+}
+
+.nav-link:hover {
+  color: #6fedd6;
+}
+
+.resume-link {
+  animation: moveInRight 2.5s ease-out;
+  border: 0.15rem solid #6fedd6;
+  border-radius: 0.5rem;
+  color: #6fedd6;
+  font-family: "Amita", cursive;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 1.5rem 2.5rem 0rem 2.8rem;
+  padding: 0.9rem;
+  text-decoration: none;
+  width: 10rem;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translatex(5rem);
+  }
+
+  80% {
+    transform: translatex(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.resume-link:hover {
+  background: linear-gradient(#1d325e, #1d325e);
+  color: #6fedd6;
+  transform: translateY(-3px);
+}
+
+.resume-link:active {
+  border: 0.15rem solid #6fedd6;
+  border-radius: 0.5rem;
+  color: #6fedd6;
+  transform: translateY(-1px);
+}
+
+.user-icon {
+  color: #6fedd6;
+  margin-right: 0.5rem;
+}
+
+/* ***Header*** */
+header {
+  margin-bottom: 16rem;
+}
+
+.heading-container {
+  line-height: 1.8;
+  margin: 15rem 0rem 0rem 18rem;
+}
+
+.intro-span {
+  color: #6fedd6;
+  font-family: "verdana";
+  font-size: 1.8rem !important;
+  margin-bottom: 3rem;
+}
+
+.move {
+  margin-right: 0.3rem;
+  animation-name: move-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes move-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+h1 {
+  color: #dfdfde;
+  font-size: 7.5rem;
+}
+
+.sub-heading1 {
+  color: #7989ad;
+}
+
+.heading1-paragraph {
+  font-family: "verdana";
+  font-size: 1.7rem;
+}
+
+.contact-me {
+  animation: moveInBottom 1.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+  border: 0.1rem solid #6fedd6;
+  border-radius: 0.5rem;
+  color: #6fedd6;
+  font-size: 1.7rem;
+  margin-top: 3rem;
+  padding: 1.4rem;
+  width: 15%;
+}
+
+.contact-me:hover {
+  border: 0.1rem solid #6fedd6;
+  border-radius: 0.5rem;
+  color: #6fedd6;
+  font-size: 1.7rem;
+  transform: translateY(-3px);
+}
+
+.contact-me:active {
+  transform: translateY(-1px);
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  80% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.socials {
+  display: block;
+  margin-bottom: 2.3rem;
+}
+
+.social-media {
+  position: fixed;
+  top: 60%;
+  left: 4.5%;
+  transform: translate(-5%, -10%);
+}
+
+.SM {
+  color: #dfdfde;
+}
+
+.SM:hover {
+  color: #6fedd6;
+}
+
+/* ***About Me*** */
+#about-me {
+  width: 98%;
+  margin-bottom: 10rem;
+}
+
+.heading-about {
+  color: #dfdfde;
+  display: inline;
+  font-size: 2.9rem;
+  margin-bottom: 1.7rem;
+}
+
+.h2-box-wrap {
+  margin-left: 15rem;
+}
+
+.paragraph-about {
+  font-size: 1.7em;
+  font-family: "verdana";
+  font-weight: 400;
+  line-height: 1.7;
+  width: 55%;
+}
+
+.fa-body {
+  color: #6fedd6;
+  margin-right: 1rem;
+  margin-bottom: 1.7rem;
+  transform: translateY(-0.3rem);
+}
+
+.phone-link {
+  color: #6fedd6;
+  margin-left: 0.3rem;
+}
+
+.skill,
+.skill1,
+.technology {
+  color: #dfdfde;
+}
+
+.skill-set {
+  margin-top: 1.6rem;
+}
+
+.skill1,
+.skill {
+  font-size: 1.6rem;
+  font-family: "verdana";
+}
+
+.technology {
+  color: #6fedd6;
+  font-size: 1.9rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.fa-long-arrow-right {
+  animation-name: moveLeftRight;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  color: #6fedd6;
+  margin-right: 0.5rem;
+}
+
+.fa-phone {
+  margin-right: 0.3rem;
+  animation-name: move-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+}
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translatex(-1rem);
+  }
+  100% {
+    transform: translateX(0.5rem);
+  }
+}
+
+.skill-box2,
+.skill-box1 {
+  display: inline-block;
+}
+
+.web-image {
+  box-shadow: 1rem 1rem 1rem rgba(116, 240, 246, 0.9);
+  float: right;
+  margin-top: 8rem;
+  margin-right: 3rem;
+  transform: skewY(17deg);
+  width: 30%;
+}
+
+/* ***Projects*** */
+#work {
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+}
+
+.row {
+  margin-left: 4rem;
+}
+
+.col-box {
+  background-color: rgba(73, 112, 202, 0.7);
+  margin: 5rem 3rem 3rem 0rem;
+}
+
+.fa-folder-o {
+  color: #6fedd6;
+  float: left;
+  margin: 1.5rem 0rem 0rem 1.5rem;
+}
+
+.fa-external-link {
+  color: #6fedd6;
+  float: right;
+  margin: 1.5rem 1.5rem 0rem 0rem;
+}
+
+.fa-external-link:hover {
+  color: #dfdfde;
+}
+
+.heading-project_box {
+  padding: 1.5rem;
+  margin-top: 6rem;
+}
+
+.heading-6 {
+  color: #dfdfde;
+  font-size: 1.9rem;
+  font-weight: 700;
+  padding: 0.7rem;
+  text-align: left;
+}
+
+.heading6-paragraph {
+  font-family: "verdana";
+  font-size: 1.7rem;
+  line-height: 1.7;
+  padding: 0.7rem;
+  text-align: left;
+}
+
+.languages {
+  float: left;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.html,
+.css {
+  color: #6fedd6;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-right: 6rem;
+}
+
+.fa-git {
+  color: #6fedd6;
+}
+
+.fa-git:hover {
+  color: #dfdfde;
+}
+
+.html:hover {
+  color: #dfdfde;
+}
+
+.css:hover {
+  color: #dfdfde;
+}
+
+.box-1 {
+  margin-left: 10rem;
+}
+
+.box-2:hover {
+  animation-name: moveUp;
+  animation-duration: 2s;
+}
+
+.box-1:hover {
+  animation-name: moveUp;
+  animation-duration: 2s;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(-0.7rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.btn-span {
+  border: 0.2rem solid #6fedd6;
+  border-radius: 0.6rem;
+  font-size: 1.4rem;
+  color: #dfdfde;
+  padding: 1rem;
+}
+
+.btn-span:hover {
+  border: 0.2rem solid #6fedd6;
+  color: #dfdfde;
+}
+
+.btn-certificates {
+  border: 0.1rem solid #6fedd6;
+  border-radius: 0.6rem;
+  color: #6fedd6;
+  font-size: 1.6rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  padding: 1.4rem;
+}
+
+.fa-code-fork {
+  color: #6fedd6;
+}
+
+.btn-certificates:hover {
+  border: 0.1rem solid #6fedd6;
+  color: #6fedd6;
+  transform: translateY(-3px);
+}
+
+.btn-certificates:active {
+  border: 0.1rem solid #6fedd6;
+  color: #6fedd6;
+  transform: translateY(-1px);
+}
+
+/*➡as the indevelopment sites are ready, the 'fa-margin' class will be removed from the git icon and the 'in development span deleted*/
+
+.fa-margin {
+  margin-right: 3rem;
+}
+
+/* ***CONTACT ME*** */
+.heading-contact {
+  margin-top: 10rem;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-me-paragraph {
+  font-family: "verdana";
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  margin-top: 2rem;
+  padding: 0rem 6rem 0rem 6rem;
+}
+
+.contact-me-mail {
+  animation-name: glowing;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border: 0.1rem solid #6fedd6;
+  border-radius: 1rem;
+  color: #6fedd6;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding: 1.5rem;
+  width: 18rem;
+}
+
+.js-paragraph {
+  color: #6fedd6;
+  font-size: 1.5rem;
+  font-family: Verdana;
+  margin-bottom: 2rem;
+}
+
+.contact-me-mail:hover {
+  border: 0.1rem solid #6fedd6;
+  color: #dfdfde;
+  transform: translateY(-3px);
+}
+
+.btn-certificates:active {
+  transform: translateY(-1px);
+}
+
+@keyframes glowing {
+  0% {
+    border: 0.1rem solid #1d325e;
+  }
+  50% {
+    border: 0.1rem solid #6fedd6;
+  }
+  100% {
+    border: 0.1re solid #1d325e;
+  }
+}
+
+/* ***Footer*** */
+
+.bottom {
+  color: #dfdfde;
+  margin-bottom: 0.5rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.copyright {
+  font-family: "verdana";
+  font-size: 1.3rem;
+}
+
+b {
+  font-family: "Amita";
+  color: #6fedd6;
+}
