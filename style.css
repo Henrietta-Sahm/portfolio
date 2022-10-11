@@ -785,32 +785,48 @@ b {
   .fa-margin {
     margin-right: 2rem;
   }
-}
+  
+  /*CONTACT*/
+  .contact-me-paragraph {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+    padding: 0rem 4rem 0rem 4rem;
+  }
 
+  .contact-me-mail {
+    font-size: 1.3rem;
+    padding: 1.2rem;
+    width: 12rem;
+  }
 
+  .js-paragraph {
+    font-size: 1.2rem
+  }
+
+  .contact-me-mail:hover {
+    transform:none;
+  }
   
+  .btn-certificates:active {
+    transform:none;
+  }
+
+  .copyright {
+    font-size: 1.2rem;
+  }
+
+  .social-media{
+    position: relative;
+    top: 6rem;
+    text-align: center;
+  }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  .socials{
+    width: 3rem;
+  }
+
+  .SM{
+    font-size: 0.7rem;
+  }
 }
