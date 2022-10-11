@@ -641,6 +641,63 @@ b {
   .contact-me:active {
     transform: none;
   }
+  
+  /* About Me */
+  .h2-box-wrap {
+    display: block;
+    margin-left: 3rem;
+    width: 98%;
+  }
+
+  .heading-about {
+    color: #dfdfde;
+    display: inline;
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .web-image {
+    transition: none;
+    visibility: hidden;
+  }
+
+  .image-wrap {
+    visibility: hidden;
+  }
+  .paragraph-about {
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.5;
+    position: absolute;
+    width: auto;
+  }
+
+  .fa-body {
+    font-size: 1.6rem;
+  }
+
+  .skill-box1 {
+    margin-top: 35rem;
+  }
+
+  .technology {
+    font-size: 1.8rem;
+  }
+
+  .skill1,
+  .skill {
+    font-size: 1.4rem;
+  }
+
+  .skill1:before {
+    content: " ";
+    display: block;
+  } 
+
+  .skill:before {
+    content: " ";
+    display: block;
+  }
 }
 
   
