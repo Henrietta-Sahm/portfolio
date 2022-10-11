@@ -547,6 +547,10 @@ b {
 
 /*Breakpoints*/
 @media screen and (max-width: 600px) {
+   body {
+    width: auto;
+  }
+  
   .navbar {
     padding-top: 1.8rem;
   }
@@ -559,7 +563,6 @@ b {
     left: -0.9rem;
     width: 15rem;
   }
-
 
   .nav-link {
     font-size: 1.6rem;
