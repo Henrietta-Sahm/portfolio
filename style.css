@@ -543,3 +543,46 @@ b {
   font-family: "Amita";
   color: #6fedd6;
 }
+
+
+/*Breakpoints*/
+@media (min-width: 576px) { 
+html{
+  font-size:5px;
+  }
+  
+navbar{
+  color:#6fedd6;
+  }
+  
+  .heading-container{
+    margin-right:4rem;
+  }
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
