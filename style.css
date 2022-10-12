@@ -660,12 +660,11 @@ b {
   }
 
   .web-image {
-    transition: none;
-    visibility: hidden;
+    display:none;
   }
 
   .image-wrap {
-    visibility: hidden;
+    display:none;
   }
   
  .paragraph-about {
