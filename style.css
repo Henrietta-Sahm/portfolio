@@ -667,20 +667,17 @@ b {
   .image-wrap {
     visibility: hidden;
   }
-  .paragraph-about {
+  
+ .paragraph-about {
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.5;
-    position: absolute;
-    width: auto;
+   padding-right: 1.5rem;
+    width: 97%;
   }
 
   .fa-body {
     font-size: 1.6rem;
-  }
-
-  .skill-box1 {
-    margin-top: 37rem;
   }
 
   .technology {
