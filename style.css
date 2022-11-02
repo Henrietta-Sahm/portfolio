@@ -328,6 +328,11 @@ h1 {
 .col-box {
   background-color: rgba(73, 112, 202, 0.7);
   margin: 5rem 3rem 3rem 0rem;
+  transition: transform 0.3s;
+}
+
+.col-box:hover {
+  transform: translateY(-1.5rem) scale(1.03);
 }
 
 .fa-folder-o {
@@ -401,16 +406,6 @@ h1 {
   margin-left: 10rem;
 }
 
-.box-2:hover {
-  animation-name: moveUp;
-  animation-duration: 2s;
-}
-
-.box-1:hover {
-  animation-name: moveUp;
-  animation-duration: 2s;
-}
-
 @keyframes moveUp {
   0% {
     transform: translateY(-0.7rem);
@@ -435,12 +430,12 @@ h1 {
 
 .btn-certificates {
   border: 0.1rem solid #6fedd6;
-  border-radius: 0.4rem;
-  font-size: 1.2rem;
-  padding: 1.2rem;
+  border-radius: 0.6rem;
   color: #6fedd6;
+  font-size: 1.6rem;
   margin-top: 5rem;
   margin-bottom: 10rem;
+  padding: 1.4rem;
 }
 
 .fa-code-fork {
